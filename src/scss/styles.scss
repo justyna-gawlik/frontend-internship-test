@@ -1,5 +1,7 @@
 @import 'layout/main';
 
+//Popup
+
 #popup {
     background: hidden;
     width: 100%;
@@ -19,10 +21,20 @@
     position: relative;
 }
 
+//Fonts
+
 h1 {
     font-family: 'Lobster', cursive;
     text-align: center;
     margin-bottom: 20px;
+}
+
+//Messages
+
+#success-message{
+    font-family: 'Lobster', cursive;
+    font-size: 42px;
+    display: none;
 }
 
 #error {
@@ -31,6 +43,8 @@ h1 {
     margin: 10px;
 }
 
+//Form
+
 .form-control {
     display: block;
     margin-bottom: 20px;
@@ -38,6 +52,8 @@ h1 {
     border-radius: 0;
     padding: 10px;
 }
+
+//Buttons
 
 .btn.submit {
     padding: 10px;
@@ -58,6 +74,7 @@ h1 {
     cursor: pointer;
 }
 
+//Checkbox
 
 .b-contain *,
 .b-contain *::before,
@@ -108,3 +125,4 @@ h1 {
 .b-contain input:checked~.b-input::after {
     display: block;
 }
+
